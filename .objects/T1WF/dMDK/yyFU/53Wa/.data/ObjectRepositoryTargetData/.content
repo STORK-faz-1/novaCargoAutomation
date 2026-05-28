@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GFRIN8DLcECbCytQhD2Hmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="trendyol.com/hesabim/siparislerim/10533546279" CVScreenId="b0a86d8b-46e7-420d-a4f2-543efd16b10e" CvType="AnyWordGroup" DesignTimeRectangle="543, 507, 87, 13" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="0f93d889-21cf-410a-aadf-440441a1a0cc" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Online Alışveriş Sitesi, Türkiye’nin Trend Yolu | Trendyol ve di*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b0a86d8b-46e7-420d-a4f2-543efd16b10e" CvTextArea="541, 485, 82, 13" CvTextArgument="Teslimat no:" CvType="Text" DesignTimeRectangle="541, 485, 82, 13" ElementType="Text" Guid="2c333414-7b5a-4d00-bffd-67dc7e7c845a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ecd519359b95bbfd0ce7fd4bb741706f.jpg" xmlns="">0wlJw5htHl0qR6f1hZvRrmA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

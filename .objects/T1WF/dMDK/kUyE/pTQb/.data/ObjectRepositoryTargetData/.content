@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="C19RRNPIIEyXG-q-NgZlzA" Reference="3aObbW6By0C5zNHRFjAvYg/pTQbnt8M0ES_S1DcXTLNMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="trendyol.com/giris" CVScreenId="43de6ed7-1232-4224-9537-4150df0196ba" CvElementArea="734, 521, 450, 56" CvTextArea="916, 540, 85, 17" CvTextArgument="Devam Et" CvType="Button" DesignTimeRectangle="711, 814, 498, 57" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='button' tag='BUTTON' aaname='Devam Et' /&gt;" Guid="e9b946e5-0703-489c-a33d-3e4d55a768e7" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Giriş' title='Trendyol Login | Hesap Girişi - Üye Ol!' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="54037d05773276011d597da0f1f9416e.jpg" xmlns="">0p9-GiTnW-U-ZOiR7pws9JA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

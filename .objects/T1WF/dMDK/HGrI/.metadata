@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Trendyol",
+  "Type": "Screen",
+  "Id": "HGrIryimmUOgI1zkADVaPA",
+  "Reference": "3aObbW6By0C5zNHRFjAvYg/HGrIryimmUOgI1zkADVaPA",
+  "ParentRef": "3aObbW6By0C5zNHRFjAvYg/dMDK2VPtFEK-3DmKQmijiQ",
+  "Created": "2026-02-14T15:10:21.2352422Z",
+  "Updated": "2026-02-14T15:10:21.2352422Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

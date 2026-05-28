@@ -1,0 +1,14 @@
+﻿{
+  "Name": "E-Posta ",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "zBjJ2vyCXUi7VHkq9m-QPQ",
+  "Reference": "3aObbW6By0C5zNHRFjAvYg/zBjJ2vyCXUi7VHkq9m-QPQ",
+  "ParentRef": "3aObbW6By0C5zNHRFjAvYg/kUyEu_Rj0U6PnqcYOaW9Sg",
+  "Created": "2026-02-14T17:26:10.529934Z",
+  "Updated": "2026-02-14T17:26:10.529934Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

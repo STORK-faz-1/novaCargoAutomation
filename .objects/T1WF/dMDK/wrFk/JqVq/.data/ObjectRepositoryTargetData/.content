@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8K-lkbKgiESgwrm-H9ikcQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="trendyol.com" CVScreenId="a051586b-2b1a-4ebe-9026-a5dee8a6b196" CvTextArea="1565, 217, 60, 15" CvTextArgument="Hesabım" CvType="Text" DesignTimeRectangle="1565, 217, 60, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="fec5ef6c-a36d-47dc-8854-2aabf0a0865f" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='En Trend Ürünler Türkiye&amp;apos;nin Online Alışveriş Sitesi Trendyol&amp;apos;da*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="59903e3951ca04aa636ef680accc8cc8.jpg" xmlns="">0wk67_SCR_kGbrs3W5buUQQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

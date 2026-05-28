@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Trendyol",
+  "Type": "App",
+  "Id": "T1WFFAeVdk6eamMn1zVfZA",
+  "Reference": "3aObbW6By0C5zNHRFjAvYg/T1WFFAeVdk6eamMn1zVfZA",
+  "Created": "2026-02-14T15:10:20.672513Z",
+  "Updated": "2026-02-14T15:10:20.672513Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

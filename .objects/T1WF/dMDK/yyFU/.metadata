@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Online Alışveriş Sitesi, Türkiye’nin Tre",
+  "Type": "Screen",
+  "Id": "yyFUgXAtNEeIi06MFQHSTA",
+  "Reference": "3aObbW6By0C5zNHRFjAvYg/yyFUgXAtNEeIi06MFQHSTA",
+  "ParentRef": "3aObbW6By0C5zNHRFjAvYg/dMDK2VPtFEK-3DmKQmijiQ",
+  "Created": "2026-02-14T18:03:51.3737254Z",
+  "Updated": "2026-02-14T18:03:51.3737254Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

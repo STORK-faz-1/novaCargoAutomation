@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mLgU5NyPrU2bqfVi3O3WYQ" Reference="3aObbW6By0C5zNHRFjAvYg/zBjJ2vyCXUi7VHkq9m-QPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="trendyol.com/giris" CVScreenId="e29aa9a7-782c-403d-8014-b0b377f3923b" CvElementArea="733, 445, 451, 57" CvType="InputBox" DesignTimeRectangle="711, 729, 498, 60" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email-input' tag='INPUT' type='text' class='input' aaname='E-Posta *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="dcc0465f-8074-4149-855e-354350b79d03" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Giriş' title='Trendyol Login | Hesap Girişi - Üye Ol!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e29aa9a7-782c-403d-8014-b0b377f3923b" CvTextArea="734, 423, 62, 13" CvTextArgument="E-Posta *" CvType="Text" DesignTimeRectangle="711, 700, 67, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='E-Posta *' check:innerText='E-Posta *' /&gt;" Guid="7f1cedde-64f9-4d87-9691-817ca037ad65" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="40a069a2883b130709810993ce4eda49.jpg" xmlns="">08v01z7OLvUW_zpAmCLTj3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m48m6VEI9Ua6PpfvXX8SXQ" Reference="3aObbW6By0C5zNHRFjAvYg/KqfTuld_t0eUghs3g0HZFQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="trendyol.com/giris/v2" CVScreenId="96e896da-ffd6-4756-96f0-fcd8dd64de68" CvElementArea="709, 582, 501, 61" CvTextArea="915, 600, 86, 27" CvTextArgument="Giriş Yap" CvType="Button" DesignTimeRectangle="711, 584, 498, 57" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="5bf9156c-914e-4c18-a904-1a79ffe7a1e6" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='Giriş' title='Trendyol Login | Hesap Girişi - Üye Ol!' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="96e896da-ffd6-4756-96f0-fcd8dd64de68" CvTextArea="1038, 537, 171, 21" CvTextArgument="Şifrenizi mi unuttunuz?" CvType="Text" DesignTimeRectangle="1040, 534, 169, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Şifrenizi mi unuttunuz?' parentid='login-panel' tag='DIV' type='' class='p-typography-wrapper p-typography-bodySmall p-typography-semibold p-typography-semibold p-primary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Şifrenizi mi unuttunuz?' /&gt;" Guid="24174106-dbd8-4ccd-9bc8-645e5ea2ed28" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="689d5c56323a13f9b68a90fbdbf7dae4.jpg" xmlns="">0lzzKcobY4UONR09FiWYPpg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

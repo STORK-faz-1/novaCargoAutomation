@@ -1,0 +1,354 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_password" Type="InArgument(x:String)" />
+    <x:Property Name="in_email" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>login_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="login" sap:VirtualizedContainerService.HintSize="891.6,3211.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="556.8,3188" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch.Try>
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="555.2,2740.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:Boolean" Name="isLogined" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign DisplayName="Assign isLogined" sap:VirtualizedContainerService.HintSize="521.6,174.4" sap2010:WorkflowViewState.IdRef="Assign_2">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Boolean">[isLogined]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[isLogined = False]" DisplayName="While" sap:VirtualizedContainerService.HintSize="521.6,2506.4" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1" MaxIterations="3">
+            <ui:InterruptibleWhile.Body>
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,2384.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Trendyol Login  Hesap Girişi - Üye Ol!" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486.4,2324.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="0461ae39-4518-4c4a-b49b-776aa9c8badf" Version="V2">
+                  <uix:NApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="x:Object">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,2131.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Single]" ClipboardMode="[UiPath.UIAutomationNext.Enums.NTypeByClipboardMode.Always]" DelayBefore="1" DisplayName="Type Into 'E-Posta *'" EmptyFieldMode="[UiPath.UIAutomationNext.Enums.NEmptyFieldMode.MultiLine]" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,297.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="0461ae39-4518-4c4a-b49b-776aa9c8badf" Text="[in_email]" Version="V5">
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="trendyol.com/giris" CVScreenId="e29aa9a7-782c-403d-8014-b0b377f3923b" ContentHash="mLgU5NyPrU2bqfVi3O3WYQ" CvElementArea="733, 445, 451, 57" CvType="InputBox" DesignTimeRectangle="711, 729, 498, 60" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email-input' tag='INPUT' type='text' class='input' aaname='E-Posta *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="dcc0465f-8074-4149-855e-354350b79d03" InformativeScreenshot="40a069a2883b130709810993ce4eda49.jpg" IsResponsive="True" Reference="3aObbW6By0C5zNHRFjAvYg/zBjJ2vyCXUi7VHkq9m-QPQ" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Giriş' title='Trendyol Login | Hesap Girişi - Üye Ol!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="e29aa9a7-782c-403d-8014-b0b377f3923b" CvTextArea="734, 423, 62, 13" CvTextArgument="E-Posta *" CvType="Text" DesignTimeRectangle="711, 700, 67, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='E-Posta *' check:innerText='E-Posta *' /&gt;" Guid="7f1cedde-64f9-4d87-9691-817ca037ad65" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NTypeInto.Target>
+                          <uix:NTypeInto.VerifyOptions>
+                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" ExpectedText="[Nothing]" Mode="Appears">
+                              <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            </uix:VerifyExecutionTypeIntoOptions>
+                          </uix:NTypeInto.VerifyOptions>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NTypeInto>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1.5" DisplayName="Click 'Devam Et'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,193.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0461ae39-4518-4c4a-b49b-776aa9c8badf" Version="V5">
+                          <uix:NClick.DelayBefore>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:NClick.DelayBefore>
+                          <uix:NClick.InUiElement>
+                            <InArgument x:TypeArguments="ui:UiElement" />
+                          </uix:NClick.InUiElement>
+                          <uix:NClick.OutUiElement>
+                            <OutArgument x:TypeArguments="ui:UiElement" />
+                          </uix:NClick.OutUiElement>
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="trendyol.com/giris" CVScreenId="43de6ed7-1232-4224-9537-4150df0196ba" ContentHash="C19RRNPIIEyXG-q-NgZlzA" CvElementArea="734, 521, 450, 56" CvTextArea="916, 540, 85, 17" CvTextArgument="Devam Et" CvType="Button" DesignTimeRectangle="711, 814, 498, 57" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='button' tag='BUTTON' aaname='Devam Et' /&gt;" Guid="e9b946e5-0703-489c-a33d-3e4d55a768e7" InformativeScreenshot="54037d05773276011d597da0f1f9416e.jpg" Reference="3aObbW6By0C5zNHRFjAvYg/pTQbnt8M0ES_S1DcXTLNMg" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Giriş' title='Trendyol Login | Hesap Girişi - Üye Ol!' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                          </uix:NClick.Target>
+                          <uix:NClick.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:NClick.Timeout>
+                        </uix:NClick>
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="[UiPath.UIAutomationNext.Enums.NTypeByClipboardMode.Always]" DisplayName="Type Into 'Şifre'" EmptyFieldMode="[UiPath.UIAutomationNext.Enums.NEmptyFieldMode.MultiLine]" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="0461ae39-4518-4c4a-b49b-776aa9c8badf" Text="[in_password]" Version="V5">
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="trendyol.com/giris/v2" CVScreenId="af85cd3a-a984-41b3-9d40-68652b582eaf" ContentHash="IXjBv4KQXUWffcGDBGwHyA" CvElementArea="734, 545, 451, 57" CvType="InputBox" DesignTimeRectangle="711, 839, 498, 60" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='login-password-input' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='password' class='input' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="e6396a6a-4f66-4445-a872-b3791b3f2a14" InformativeScreenshot="6bd67a5adef6196156b868e9abe407b5.jpg" Reference="3aObbW6By0C5zNHRFjAvYg/Fwc5sY6EbkSYlDkrUZ3JPQ" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Giriş' title='Trendyol Login | Hesap Girişi - Üye Ol!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="af85cd3a-a984-41b3-9d40-68652b582eaf" CvTextArea="734, 522, 32, 17" CvTextArgument="Șifre" CvType="Text" DesignTimeRectangle="711, 810, 34, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Şifre ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Şifre' /&gt;" Guid="3c8240bf-39ad-49cf-80b3-4482c0013418" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NTypeInto.Target>
+                        </uix:NTypeInto>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Giriş Yap'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,193.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0461ae39-4518-4c4a-b49b-776aa9c8badf" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="trendyol.com/giris/v2" CVScreenId="96e896da-ffd6-4756-96f0-fcd8dd64de68" ContentHash="m48m6VEI9Ua6PpfvXX8SXQ" CvElementArea="709, 582, 501, 61" CvTextArea="915, 600, 86, 27" CvTextArgument="Giriş Yap" CvType="Button" DesignTimeRectangle="711, 584, 498, 57" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="5bf9156c-914e-4c18-a904-1a79ffe7a1e6" InformativeScreenshot="689d5c56323a13f9b68a90fbdbf7dae4.jpg" Reference="3aObbW6By0C5zNHRFjAvYg/KqfTuld_t0eUghs3g0HZFQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='Giriş' title='Trendyol Login | Hesap Girişi - Üye Ol!' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="96e896da-ffd6-4756-96f0-fcd8dd64de68" CvTextArea="1038, 537, 171, 21" CvTextArgument="Şifrenizi mi unuttunuz?" CvType="Text" DesignTimeRectangle="1040, 534, 169, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Şifrenizi mi unuttunuz?' parentid='login-panel' tag='DIV' type='' class='p-typography-wrapper p-typography-bodySmall p-typography-semibold p-typography-semibold p-primary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Şifrenizi mi unuttunuz?' /&gt;" Guid="24174106-dbd8-4ccd-9bc8-645e5ea2ed28" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                        <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="451.2,122.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                        <uix:NCheckState DisplayName="Check App State 'Hesabım'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,1018.4" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="0461ae39-4518-4c4a-b49b-776aa9c8badf" Version="V5">
+                          <uix:NCheckState.DelayBefore>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:NCheckState.DelayBefore>
+                          <uix:NCheckState.Exists>
+                            <OutArgument x:TypeArguments="x:Boolean" />
+                          </uix:NCheckState.Exists>
+                          <uix:NCheckState.IfExists>
+                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,456.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;login successfull&quot;]" />
+                              <Assign DisplayName="Assign isLogined To True" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="Assign_3">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:Boolean">[isLogined]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:Boolean">[True]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                              <ui:Break sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Break_1" />
+                            </Sequence>
+                          </uix:NCheckState.IfExists>
+                          <uix:NCheckState.IfNotExists>
+                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <Assign DisplayName="Assign isLogined to False" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="Assign_4">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:Boolean">[isLogined]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:Boolean">[False]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                            </Sequence>
+                          </uix:NCheckState.IfNotExists>
+                          <uix:NCheckState.InUiElement>
+                            <InArgument x:TypeArguments="ui:UiElement" />
+                          </uix:NCheckState.InUiElement>
+                          <uix:NCheckState.OutUiElement>
+                            <OutArgument x:TypeArguments="ui:UiElement" />
+                          </uix:NCheckState.OutUiElement>
+                          <uix:NCheckState.Target>
+                            <uix:TargetAnchorable BrowserURL="trendyol.com" CVScreenId="911c3456-d0c8-4a14-8a61-4714e0584eee" ContentHash="iwXf-lNdPkin-suwWBYGtw" CvTextArea="1565, 217, 60, 15" CvTextArgument="Hesabım" CvType="Text" DesignTimeRectangle="1532, 239, 69, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' tag='P' aaname='Hesabım' /&gt;" Guid="b2bbc67e-6ead-4d27-aa7d-9e7515acb694" InformativeScreenshot="a285c1b3826bf6d510109c873e334d94.jpg" Reference="3aObbW6By0C5zNHRFjAvYg/sLepqR0NSUWfgLrOVqmeVg" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='homepage' title='En Trend Ürünler Türkiye&amp;apos;nin Online Alışveriş Sitesi Trendyol&amp;apos;da' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="911c3456-d0c8-4a14-8a61-4714e0584eee" CvTextArea="55, 201, 177, 45" CvTextArgument="trendyol" CvType="Text" DesignTimeRectangle="59, 225, 190, 43" FullSelectorArgument="&lt;webctrl class='logo-image' tag='SPAN' /&gt;" Guid="704779c6-8048-450a-b914-c185007349cc" SearchSteps="Selector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NCheckState.Target>
+                          <uix:NCheckState.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:NCheckState.Timeout>
+                        </uix:NCheckState>
+                      </Sequence>
+                    </ActivityAction>
+                  </uix:NApplicationCard.Body>
+                  <uix:NApplicationCard.OCREngine>
+                    <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                      <ActivityFunc.Argument>
+                        <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                      </ActivityFunc.Argument>
+                    </ActivityFunc>
+                  </uix:NApplicationCard.OCREngine>
+                  <uix:NApplicationCard.TargetApp>
+                    <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="iB7Mp2prYkmCE_d-UQI9CA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGnSURBVDhPbdPNS1VBGIDxo3nNFuJC/EhbFAiCBBoEgrUMAlPKyo1hSIQoBdIVy420iCBB9G9w1aaNixZFRNTOoA8RRDe1SQg3YpRfaD3PuTN5rjjw4555Z973zJmZm2TbxlCLSnEGvXiEh7iJ03AszM40g0E9HmMFO9gLfF7GBGqRzj+c3Iw3MOELnqAPt/AUC3DsFZpQKBIeauDAFiZRhzgWncQUtvES1fhfwG+1usnlxg43Y6jANJybN2awES7vKxoM4gp6ULRpYewUFvEJ9Qa6sAm/2b5veYt5VBqLzefgGX7jsp0H2IXHZv8E3uM7+nEDl2A8FnBzzblnZxweUzdigXf4i/3w+xOtiAWuw5y8nYHQGUYs4Ap+YAz34VGmnxOMwJw+O+fgG17AE7DAB3xGFcIOFJ3EHFZx1sBxPMcvdKIMr+HNS29dJllX4QbOIheDF+AqPJ42zOAPLJhNvogl+PZ2Y3GgBINYxyg6sAZX4T7chhfIfXHOHaS52eXlcB5eYws66Ru8dfIKf4T/zGMoJB/VHIS3sAV34bW9Bv+tB29OkuQfcBGwAyEhV5QAAAAASUVORK5CYII=" InformativeScreenshot="e6bae5a82bfd2b72bcd10cb024921c70.jpg" Reference="3aObbW6By0C5zNHRFjAvYg/kUyEu_Rj0U6PnqcYOaW9Sg" Selector="&lt;html app='chrome.exe' htmlwindowname='Giriş' title='Trendyol Login | Hesap Girişi - Üye Ol!' /&gt;" Url="https://www.trendyol.com/giris?cb=%2F" Version="V2">
+                      <uix:TargetApp.Arguments>
+                        <InArgument x:TypeArguments="x:String" />
+                      </uix:TargetApp.Arguments>
+                      <uix:TargetApp.WorkingDirectory>
+                        <InArgument x:TypeArguments="x:String" />
+                      </uix:TargetApp.WorkingDirectory>
+                    </uix:TargetApp>
+                  </uix:NApplicationCard.TargetApp>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NApplicationCard>
+              </Sequence>
+            </ui:InterruptibleWhile.Body>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:InterruptibleWhile>
+        </Sequence>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Catch - Exception" sap:VirtualizedContainerService.HintSize="555.2,225.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="521.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[exception.message]" />
+            </Sequence>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+      <TryCatch.Finally>
+        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="555.2,89.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </TryCatch.Finally>
+    </TryCatch>
+  </Sequence>
+</Activity>

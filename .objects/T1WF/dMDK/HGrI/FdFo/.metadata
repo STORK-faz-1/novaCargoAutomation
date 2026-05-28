@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Hesabım",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "FdFonA9k_Eqyb50b4BaMSg",
+  "Reference": "3aObbW6By0C5zNHRFjAvYg/FdFonA9k_Eqyb50b4BaMSg",
+  "ParentRef": "3aObbW6By0C5zNHRFjAvYg/HGrIryimmUOgI1zkADVaPA",
+  "Created": "2026-02-14T15:11:22.8730545Z",
+  "Updated": "2026-02-14T15:11:22.8730545Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IXjBv4KQXUWffcGDBGwHyA" Reference="3aObbW6By0C5zNHRFjAvYg/Fwc5sY6EbkSYlDkrUZ3JPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="trendyol.com/giris/v2" CVScreenId="af85cd3a-a984-41b3-9d40-68652b582eaf" CvElementArea="734, 545, 451, 57" CvType="InputBox" DesignTimeRectangle="711, 839, 498, 60" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='login-password-input' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='password' class='input' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="e6396a6a-4f66-4445-a872-b3791b3f2a14" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='Giriş' title='Trendyol Login | Hesap Girişi - Üye Ol!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="af85cd3a-a984-41b3-9d40-68652b582eaf" CvTextArea="734, 522, 32, 17" CvTextArgument="Șifre" CvType="Text" DesignTimeRectangle="711, 810, 34, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Şifre ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Şifre' /&gt;" Guid="3c8240bf-39ad-49cf-80b3-4482c0013418" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6bd67a5adef6196156b868e9abe407b5.jpg" xmlns="">03YT_LnB3C0KqZjgOWRS7tQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

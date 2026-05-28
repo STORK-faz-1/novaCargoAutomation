@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Trendyol Login  Hesap Girişi - Üye Ol!",
+  "Type": "Screen",
+  "Id": "kUyEu_Rj0U6PnqcYOaW9Sg",
+  "Reference": "3aObbW6By0C5zNHRFjAvYg/kUyEu_Rj0U6PnqcYOaW9Sg",
+  "ParentRef": "3aObbW6By0C5zNHRFjAvYg/dMDK2VPtFEK-3DmKQmijiQ",
+  "Created": "2026-02-14T17:25:25.4292465Z",
+  "Updated": "2026-02-14T17:25:25.4292465Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

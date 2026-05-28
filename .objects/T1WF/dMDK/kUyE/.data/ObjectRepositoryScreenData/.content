@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="iB7Mp2prYkmCE_d-UQI9CA" Reference="3aObbW6By0C5zNHRFjAvYg/kUyEu_Rj0U6PnqcYOaW9Sg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="OnCTTYysqUOoYBnw4ZBPBA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGnSURBVDhPbdPNS1VBGIDxo3nNFuJC/EhbFAiCBBoEgrUMAlPKyo1hSIQoBdIVy420iCBB9G9w1aaNixZFRNTOoA8RRDe1SQg3YpRfaD3PuTN5rjjw4555Z973zJmZm2TbxlCLSnEGvXiEh7iJ03AszM40g0E9HmMFO9gLfF7GBGqRzj+c3Iw3MOELnqAPt/AUC3DsFZpQKBIeauDAFiZRhzgWncQUtvES1fhfwG+1usnlxg43Y6jANJybN2awES7vKxoM4gp6ULRpYewUFvEJ9Qa6sAm/2b5veYt5VBqLzefgGX7jsp0H2IXHZv8E3uM7+nEDl2A8FnBzzblnZxweUzdigXf4i/3w+xOtiAWuw5y8nYHQGUYs4Ap+YAz34VGmnxOMwJw+O+fgG17AE7DAB3xGFcIOFJ3EHFZx1sBxPMcvdKIMr+HNS29dJllX4QbOIheDF+AqPJ42zOAPLJhNvogl+PZ2Y3GgBINYxyg6sAZX4T7chhfIfXHOHaS52eXlcB5eYws66Ru8dfIKf4T/zGMoJB/VHIS3sAV34bW9Bv+tB29OkuQfcBGwAyEhV5QAAAAASUVORK5CYII=" Reference="3aObbW6By0C5zNHRFjAvYg/kUyEu_Rj0U6PnqcYOaW9Sg" Selector="&lt;html app='chrome.exe' htmlwindowname='Giriş' title='Trendyol Login | Hesap Girişi - Üye Ol!' /&gt;" Url="https://www.trendyol.com/giris?cb=%2F" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="e6bae5a82bfd2b72bcd10cb024921c70.jpg" xmlns="">07Q68Crrtv0GlHPEpr7MXsw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

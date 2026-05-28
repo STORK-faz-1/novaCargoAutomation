@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iwXf-lNdPkin-suwWBYGtw" Reference="3aObbW6By0C5zNHRFjAvYg/sLepqR0NSUWfgLrOVqmeVg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="trendyol.com" CVScreenId="911c3456-d0c8-4a14-8a61-4714e0584eee" CvTextArea="1565, 217, 60, 15" CvTextArgument="Hesabım" CvType="Text" DesignTimeRectangle="1532, 239, 69, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' tag='P' aaname='Hesabım' /&gt;" Guid="b2bbc67e-6ead-4d27-aa7d-9e7515acb694" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='homepage' title='En Trend Ürünler Türkiye&amp;apos;nin Online Alışveriş Sitesi Trendyol&amp;apos;da' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="911c3456-d0c8-4a14-8a61-4714e0584eee" CvTextArea="55, 201, 177, 45" CvTextArgument="trendyol" CvType="Text" DesignTimeRectangle="59, 225, 190, 43" FullSelectorArgument="&lt;webctrl class='logo-image' tag='SPAN' /&gt;" Guid="704779c6-8048-450a-b914-c185007349cc" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a285c1b3826bf6d510109c873e334d94.jpg" xmlns="">0rYY8Qi7L40WDEee_NhwLRA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

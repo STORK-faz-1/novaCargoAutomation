@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qdEZXzF6ZUCeQLaWIwNbFg" Reference="3aObbW6By0C5zNHRFjAvYg/h6dMp1b8JUygamXZbnENDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="trendyol.com/hesabim/siparislerim/10533546279" CVScreenId="d00c64cc-3f89-42fa-93b4-e62f5e811525" CvType="AnyWordGroup" DesignTimeRectangle="568, 389, 102, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' parentid='m-order-detail' tag='P' /&gt;" Guid="504f0933-a576-4c09-8d9c-e9aaf7bebec6" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='account.orderDetail' title='Online Alışveriş Sitesi, Türkiye’nin Trend Yolu | Trendyol' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="522, 291, 1112, 77" FuzzySelectorArgument="&lt;webctrl class='seller-container' matching:class='fuzzy' fuzzylevel:class='0.0' parentid='m-order-detail' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='DIV' type='' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Satıcı:&amp;#xA;&amp;#xA;HAL-KA&amp;#xA;İadeni Değerlendir&amp;#xA;Takip et' /&gt;" Guid="a830576b-de75-48de-aea5-7bac5be38919" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8a359053032c2b111b5cf26dfddd19be.jpg" xmlns="">0MFIY48rAKEGLWV0T2zVzNg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

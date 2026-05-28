@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LmhknKwCHUqERrRVSHB0NQ" Reference="3aObbW6By0C5zNHRFjAvYg/e9DZIbIcu0KgV8EhHPOd6w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="trendyol.com/hesabim/kullanicibilgileri" CVScreenId="55fa7328-c76c-460e-9c9e-6abee85c6a65" CvElementArea="498, 615, 799, 52" CvType="InputBox" DesignTimeRectangle="498, 616, 800, 50" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' class='input' aaname='E-posta Adresi *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="634aefe3-e48d-4643-83de-da541255af83" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='account.userInfo' title='Online Alışveriş Sitesi, Türkiye’nin Trend Yolu | Trendyol' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="55fa7328-c76c-460e-9c9e-6abee85c6a65" CvTextArea="495, 588, 105, 19" CvTextArgument="E-posta Adresi *" CvType="Text" DesignTimeRectangle="498, 587, 101, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='E-posta Adresi *' tag='LABEL' type='' class='' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='E-posta Adresi *' /&gt;" Guid="a548f3e1-b948-4f74-bbbd-3c0b77d3f22f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7188900491b8aa8a24aa59b8b78e56af.jpg" xmlns="">0TqP-JttawkaMiXu9mvax4g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
